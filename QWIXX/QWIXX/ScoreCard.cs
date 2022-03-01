@@ -47,7 +47,17 @@ namespace QWIXX
             Console.WriteLine($" Running total: {TotalScore()}");
             Console.WriteLine();
             Console.WriteLine("Make your move.");
-            Console.Write("Color? (r) (y) (g) (b) : ");
+            Console.Write("Color?");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write(" (r)");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(" (y)");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(" (g)");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write(" (b) ");
+            Console.ResetColor();
+            Console.Write(": ");
             string color = (Console.ReadLine()).ToLower();
             bool isValid = false;
             switch (color)
@@ -82,6 +92,23 @@ namespace QWIXX
 
         public void Print(Row row)
         {
+           4 if(row.Color == "Red")
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+            }
+            else if (row.Color == "Yellow")
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+            }
+            if (row.Color == "Green")
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+            }
+            if (row.Color == "Blue")
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
+            }
+
             Console.WriteLine($" {row.Color}: {row.Score()} pts");
             Console.Write("  ");
             foreach(KeyValuePair<int, string> variable in row.ScoreTracker)
@@ -91,6 +118,7 @@ namespace QWIXX
                 Console.Write($" {value} ");
 
             }
+            Console.ResetColor();
             Console.WriteLine();
             Console.WriteLine();
 
