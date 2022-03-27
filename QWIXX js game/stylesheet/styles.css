@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qwixxScoreCard{
+    width: 90%;
+}
+
+h1{
+    text-align: center;
+}
+li{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 4px;
+    margin: 5px;
+}
+.rows{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.row ul{
+    box-sizing: border-box;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+}
+#redRow{
+    background-color: rgba(255, 0, 0, .1);
+}
+#redRow li{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+#yellowRow{
+    background-color: rgba(255, 255, 0, 0.1);
+}
+#yellowRow li{
+    background-color: rgba(255, 255, 0, 0.5);
+}
+#greenRow{
+    background-color: rgba(0, 128, 0, .1);
+}
+#greenRow li{
+    background-color: rgba(0, 128, 0, 0.25);
+}
+#blueRow{
+    background-color: rgba(0, 0, 255, .1);
+}
+#blueRow li{
+    background-color: rgba(0, 0, 255, 0.25);
+}

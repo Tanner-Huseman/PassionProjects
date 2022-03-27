@@ -92,7 +92,7 @@ namespace QWIXX
 
         public void Print(Row row)
         {
-           4 if(row.Color == "Red")
+           if(row.Color == "Red")
             {
                 Console.ForegroundColor = ConsoleColor.Red;
             }

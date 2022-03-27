@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\workspace\\testStuff\\Tanner's Vending Machine\\capstone\\Capstone\\Capstone.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\workspace\\tanner-huseman-git-PassionProjects\\PassionProjects\\Vending Machine\\Capstone\\Capstone.csproj",
       "projectName": "Capstone",
-      "projectPath": "C:\\Users\\Student\\workspace\\testStuff\\Tanner's Vending Machine\\capstone\\Capstone\\Capstone.csproj",
+      "projectPath": "C:\\Users\\Student\\workspace\\tanner-huseman-git-PassionProjects\\PassionProjects\\Vending Machine\\Capstone\\Capstone.csproj",
       "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\workspace\\testStuff\\Tanner's Vending Machine\\capstone\\Capstone\\obj\\",
+      "outputPath": "C:\\Users\\Student\\workspace\\tanner-huseman-git-PassionProjects\\PassionProjects\\Vending Machine\\Capstone\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",

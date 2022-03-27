@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "svTOGVuan8lbE8tgP1OrtTs/1DJK62NISXQjxcUNiVUpq5/5NiKRP/7S3KlB3RFgcnUoFPy4H+zHtsHhsaes2w==",
+  "dgSpecHash": "CieywrO+PnKHZMnDa68JoAzvCS+vjUUN65Ggmc/53IjOevEmEQCsnMrkJlmPBwKiRb8TtBs0F7mrWkIig4u/Gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\workspace\\testStuff\\Tanner's Vending Machine\\capstone\\CapstoneTests\\CapstoneTests.csproj",
+  "projectFilePath": "C:\\Users\\Student\\workspace\\tanner-huseman-git-PassionProjects\\PassionProjects\\Vending Machine\\CapstoneTests\\CapstoneTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
