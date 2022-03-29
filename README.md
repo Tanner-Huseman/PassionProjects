@@ -44,6 +44,8 @@ This program replicates VENMO. It has client/server side c# programs which inter
 
 ![TEnmoClasses](https://user-images.githubusercontent.com/100720193/160304514-15dc6ce6-5edc-4ff8-b9af-84bb45abaa87.png)
 
+![Tenmo_erd](https://user-images.githubusercontent.com/100720193/160647129-4f7f9338-3668-4ff0-86e7-99d1f3af10e9.png)
+
 ![TEnmo2](https://user-images.githubusercontent.com/100720193/160304528-ed27b7bb-2846-4f59-9c0d-5e163d420959.png)
 
 ![TEnmoTransferDetails](https://user-images.githubusercontent.com/100720193/160304540-8e46ce74-5e68-4a0d-a6a1-75dd3e6f2ea1.png)
